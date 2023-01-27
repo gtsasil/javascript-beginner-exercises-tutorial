@@ -1,17 +1,10 @@
 function getColor(selection)
 {
-	var ShoesColor = selection;
-	switch(ShoesColor){
+	switch(selection){
 		// Add more options here
-			case 'red':
-				return true;
-			case 'green':
-				return true;
-			case 'blue':
-				return true;
-	    	default:
-	    		return false;  //returns false because the user picked an unavailable color
-	    	break;               
+	    default:
+	    	return false;  //returns false because the user picked an unavailable color
+	    break;               
 	}
 }
 
